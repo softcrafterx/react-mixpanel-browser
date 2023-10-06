@@ -1,5 +1,5 @@
 {
-  "name": "react-mixpanel-browser",
+  "name": "mixpanel-browser-react",
   "version": "0.0.1",
   "description": "Wrapper around mixpanel-browser fo react client side",
   "main": "./dist/index.js",
