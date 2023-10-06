@@ -1,6 +1,6 @@
 {
   "name": "mixpanel-browser-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapper around mixpanel-browser fo react client side",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -10,6 +10,7 @@
     "default": "./dist/index.js"
   },
   "scripts": {
+    "prepublishOnly": "npm run build",
     "build": "tsup ./src/index.ts --dts --format esm, iife",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
